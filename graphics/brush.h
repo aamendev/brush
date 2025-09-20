@@ -69,13 +69,13 @@ namespace Graphics{
     class LinearBrush : public SimpleBrush 
     {
         public:
-            LinearBrush(i64 x =0, i64 y = 0, u32 r = 5): SimpleBrush(x, y, r){zero_mask(); fill_mask();}
+            LinearBrush(i64 x =0, i64 y = 0, u32 r = 5): SimpleBrush(x, y, r){zero_mask(); fill_mask(); mfix_alpha = false;}
             virtual void fill_mask() override;
     };
     class QuadraticBrush : public SimpleBrush
     {
         public:
-            QuadraticBrush(i64 x =0, i64 y = 0, u32 r = 5): SimpleBrush(x, y, r){zero_mask(); fill_mask();}
+            QuadraticBrush(i64 x =0, i64 y = 0, u32 r = 5): SimpleBrush(x, y, r){zero_mask(); fill_mask(); mfix_alpha = false;}
             virtual void fill_mask() override;
     };
 
