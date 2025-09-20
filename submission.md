@@ -231,6 +231,8 @@ The Fill class inherits from Tool. Its draw function is a flood-fill algorithm i
 ### Additional Classes
 Othe Classes and parts of the proejct are not directly graphics related and are related more to handling events, Having a custom cursor, etc... Thus, their desc. is ommited here.
 
+### Limitations
+I have not added GUI and entire control is from the keyboard. zxcv keys respectively increment/decrement red, green, blue and alpha channels. y and Y determine density of spray brush. p and o control the radius. and to select a tool, select a number between 1 to 6. Fill is selected with F.
 ## Collaboration/References
 
 ## Known Bugs
